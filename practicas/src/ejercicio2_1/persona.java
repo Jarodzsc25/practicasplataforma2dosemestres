@@ -7,7 +7,7 @@ public class persona {
     String pais;
     char genero;
     int fechadenacimiento;
-    public class ejercicio(String nombre, String apellido, String numeroDocumentoIdentidad, String pais, char genero, int fechadenacimiento) {
+    public persona(String nombre, String apellido, String numeroDocumentoIdentidad, String pais, char genero, int fechadenacimiento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.numeroDocumentoIdentidad = numeroDocumentoIdentidad;
